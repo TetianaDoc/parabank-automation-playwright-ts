@@ -1,0 +1,31 @@
+{
+  "name": "parabank-automation-playwright-ts",
+  "version": "1.0.0",
+  "description": "End-to-End Automation Testing Suite for ParaBank using Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=\"Google Chrome\"",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:auth": "playwright test tests/auth",
+    "test:accounts": "playwright test tests/accounts",
+    "test:transfer": "playwright test tests/transfer",
+    "test:bill-pay": "playwright test tests/bill-pay",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "parabank",
+    "page-objects",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
