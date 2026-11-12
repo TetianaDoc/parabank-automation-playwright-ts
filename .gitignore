@@ -12,3 +12,7 @@ node_modules/
 .env
 .DS_Store
 Thumbs.db
+
+# AI review cache
+.claude/.review-cache/
+.agents/.review-cache/

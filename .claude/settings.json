@@ -1,0 +1,12 @@
+{
+  "allowedTools": [
+    "Bash(npx tsc*)",
+    "Bash(npx playwright test*)",
+    "Bash(npm test*)",
+    "Bash(npm run test*)",
+    "Bash(git status*)",
+    "Bash(git diff*)",
+    "Bash(rm -rf .claude/.review-cache*)",
+    "Bash(mkdir -p .claude/.review-cache*)"
+  ]
+}
